@@ -1,0 +1,16 @@
+README.md
+setup.py
+/home/will/Documents/MLwFriends/ingredient_parser/ingredient-phrase-tagger-master/ingredient_phrase_tagger.egg-info/PKG-INFO
+/home/will/Documents/MLwFriends/ingredient_parser/ingredient-phrase-tagger-master/ingredient_phrase_tagger.egg-info/SOURCES.txt
+/home/will/Documents/MLwFriends/ingredient_parser/ingredient-phrase-tagger-master/ingredient_phrase_tagger.egg-info/dependency_links.txt
+/home/will/Documents/MLwFriends/ingredient_parser/ingredient-phrase-tagger-master/ingredient_phrase_tagger.egg-info/requires.txt
+/home/will/Documents/MLwFriends/ingredient_parser/ingredient-phrase-tagger-master/ingredient_phrase_tagger.egg-info/top_level.txt
+ingredient_phrase_tagger/__init__.py
+ingredient_phrase_tagger.egg-info/PKG-INFO
+ingredient_phrase_tagger.egg-info/SOURCES.txt
+ingredient_phrase_tagger.egg-info/dependency_links.txt
+ingredient_phrase_tagger.egg-info/requires.txt
+ingredient_phrase_tagger.egg-info/top_level.txt
+ingredient_phrase_tagger/training/__init__.py
+ingredient_phrase_tagger/training/cli.py
+ingredient_phrase_tagger/training/utils.py
