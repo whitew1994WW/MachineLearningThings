@@ -53,6 +53,11 @@ class MongoPipeline(object):
         item_extracted['servings'] = extract_servings(item)
         return item_extracted
 
+    def find_reg(regex, text):
+        matches = re.finditer(regex, text, re.MULTILINE)
+        groups = [match.group(1) for match in matches]
+        return groups
+
     def extract_ingredients(self, item):
 
         return ingredients
@@ -62,7 +67,12 @@ class MongoPipeline(object):
         return method
 
     def extract_nutrition(self, item):
-
+        nutrition = {}
+        nutrition['cal'] = '\"calories\">(\d*)<'
+        nutrition['fat'] = '\"calories\">(\d*)<'
+        nutrition['sat'] = '\"calories\">(\d*)<'
+        nutrition['carbs'] = '\"calories\">(\d*)<'
+        nutrition['sugar'] = '\"calories\">(\d*)<'
         return nutrition
 
     def extract_title(self, item):
